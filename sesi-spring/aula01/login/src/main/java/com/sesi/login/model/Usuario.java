@@ -67,7 +67,7 @@ public class Usuario {
 		this.papeis = papeis;
 	}
 
-	public Usuario(Long idUsuario, String nomeUsuario, String senha, Set<Papel> papeis) {
+	public Usuario() {
 		super();
 		this.idUsuario = idUsuario;
 		this.nomeUsuario = nomeUsuario;
